@@ -13,8 +13,6 @@
 
 **Acme Retail**'s order-writer Lambda can't save orders. It throws `AccessDenied` on DynamoDB — yet someone "already gave it DynamoDB permissions." The permission exists, but it's pointed at the **wrong table**. Welcome to the access-denied maze.
 
-**Microcredential mapping:** the assessment pre-builds its IAM roles for you, but every challenge fails exactly like this lab when a policy's action or resource is wrong. This is the IAM debugging skill underneath all seven challenges.
-
 ## Architecture
 
 ```

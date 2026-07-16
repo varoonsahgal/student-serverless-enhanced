@@ -13,8 +13,6 @@
 
 At **Acme Retail**, placing an order is supposed to kick off a Step Functions workflow (charge, reserve inventory, notify). Right now every checkout returns a server error and **zero executions** show up in the state machine. Orders are disappearing into the void.
 
-**Microcredential mapping:** this lab mirrors the first half of **Challenge 5** of the assessment (`placeorder_function` must start the Step Functions state machine with the right permissions and input).
-
 ## Architecture
 
 ```

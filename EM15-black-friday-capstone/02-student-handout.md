@@ -13,8 +13,6 @@
 
 It's **Black Friday** at **Acme Retail**. The lead engineer is gone and the checkout pipeline is broken in **four independent places** across four services. Customers hit "Place order" and nothing works. You have one job: get one order to flow cleanly from the API all the way to a confirmation notification — and prove it.
 
-**Microcredential mapping:** this lab mirrors the assessment's **Final End-to-End Validation** — one order must flow from API to notification, and 'the platform is operational' means every downstream effect is proven, not assumed.
-
 ## Architecture
 
 ```

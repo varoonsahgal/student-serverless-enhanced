@@ -13,8 +13,6 @@
 
 **Acme Retail** ships Lambda updates through a CodePipeline: an artifact lands in S3, CodeBuild deploys it. Right now every pipeline run **fails at the Deploy stage** — the code never reaches the function. The team is stuck making risky manual console edits because the pipeline is dead.
 
-**Microcredential mapping:** this lab mirrors the CI/CD half of **Challenge 7** of the assessment (application updates must flow through CodePipeline, not unmanaged console edits).
-
 ## Architecture
 
 ```

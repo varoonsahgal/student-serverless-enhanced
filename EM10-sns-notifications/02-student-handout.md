@@ -13,8 +13,6 @@
 
 **Acme Retail** customers place orders successfully, but **no confirmation emails go out**. The notification Lambda runs, logs an error, and moves on — receipts are vanishing silently. With the sale live, customers think their orders failed.
 
-**Microcredential mapping:** this lab mirrors the notification half of **Challenge 7** of the assessment (`send_notification_function` must publish to the correct SNS topic ARN and log the message ID).
-
 ## Architecture
 
 ```

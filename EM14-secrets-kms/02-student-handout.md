@@ -13,8 +13,6 @@
 
 **Acme Retail**'s checkout Lambda needs the database password, stored in Secrets Manager and encrypted with a customer-managed KMS key. The Lambda has permission to read the secret — yet every call is **denied**. The credentials are sealed behind a lock the function isn't allowed to open.
 
-**Microcredential mapping:** this lab extends **Challenge 6** of the assessment ('a foundation for secure VPC resource access') with the Secrets Manager + KMS pattern real deployments use for database credentials.
-
 ## Architecture
 
 ```

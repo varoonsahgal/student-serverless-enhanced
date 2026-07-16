@@ -13,8 +13,6 @@
 
 **Acme Retail**'s order-intake Lambda returns errors, but the on-call engineer is **flying blind**: CloudWatch shows nothing. You can't fix what you can't see — first restore observability, then find the actual defect the logs reveal.
 
-**Microcredential mapping:** this lab trains the assessment's cross-cutting requirement: *diagnose failures by using Amazon CloudWatch Logs*. Every challenge assumes you can see your errors — this lab is about what to do when you can't.
-
 ## Architecture
 
 ```

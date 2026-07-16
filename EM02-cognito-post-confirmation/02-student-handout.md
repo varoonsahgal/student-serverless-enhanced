@@ -13,8 +13,6 @@
 
 At **Acme Retail**, every new customer is supposed to be auto-subscribed to the order-notifications SNS topic the moment they confirm their account. Marketing reports: "Nobody who signed up today is getting our emails." The sign-up itself works — users can log in — but the welcome workflow is dead silent.
 
-**Microcredential mapping:** this lab mirrors **Challenge 2** of the assessment (repair the Cognito Post-confirmation trigger so `subscribeSNS_function` subscribes new users to the SNS topic).
-
 ## Architecture
 
 ```

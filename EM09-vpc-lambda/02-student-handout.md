@@ -13,8 +13,6 @@
 
 For a new security requirement, **Acme Retail** moved a data-access Lambda into a private VPC subnet. Immediately, the function started **timing out** on every DynamoDB call. The security intent was right — but the network path to DynamoDB was never provided, so the function is now sealed in a cage with no way out.
 
-**Microcredential mapping:** this lab mirrors **Challenge 6** of the assessment (run Lambdas inside VPC private subnets with the right routing so they can still reach AWS services).
-
 ## Architecture
 
 ```

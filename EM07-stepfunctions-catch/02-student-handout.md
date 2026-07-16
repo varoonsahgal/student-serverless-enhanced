@@ -13,8 +13,6 @@
 
 **Acme Retail**'s order workflow runs a payment step against a flaky third-party gateway. Right now, whenever the gateway hiccups, the **entire order workflow fails** — no retry, no fallback, no "flag for manual review." One transient blip and the customer's order is dead.
 
-**Microcredential mapping:** this lab mirrors the error-handling requirement of **Challenge 5** of the assessment (the state machine must include `Catch` blocks so failures are handled, not fatal).
-
 ## Architecture
 
 ```

@@ -13,8 +13,6 @@
 
 **Acme Retail** protects its order API two ways: only signed-in customers (Cognito) may call it, and AWS WAF filters hostile traffic. After the lead engineer left, **every** request fails — even a perfectly valid, logged-in customer with a fresh token gets rejected. The security layer has become a brick wall.
 
-**Microcredential mapping:** this lab mirrors **Challenge 3** of the assessment (create a Cognito authorizer with token source `Authorization`, attach AWS WAF managed rule groups, and keep legitimate traffic flowing).
-
 ## Architecture
 
 ```

@@ -13,8 +13,6 @@
 
 You are the on-call engineer at **Acme Retail**. The lead engineer quit two hours before a flash sale. The storefront's API — the single door between the web app and every Lambda — is misbehaving. The web team is screaming: "Products won't load, and checkout throws a 404!"
 
-**Microcredential mapping:** this lab mirrors **Challenge 1** of the Acme Retail Serverless Recovery assessment (complete the API Gateway configuration: resources, methods, Lambda proxy integrations, CORS, deployment).
-
 ## Architecture
 
 ```

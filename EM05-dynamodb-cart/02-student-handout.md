@@ -13,8 +13,6 @@
 
 **Acme Retail** shoppers keep losing their carts. Add three items, refresh, and the cart is empty again. Worse, adding an item throws a server error. With the sale minutes away, customers can't hold anything in their basket.
 
-**Microcredential mapping:** this lab mirrors **Challenge 4** of the assessment (restore shopping-cart persistence: consistent user key, correct DynamoDB table/key schema, clean CloudWatch logs).
-
 ## Architecture
 
 ```

@@ -18,8 +18,6 @@
 
 Ops reports: "Standard orders are flowing, but the priority team's queue is bone dry — even during the rush." No errors anywhere. Messages just vanish.
 
-**Microcredential mapping:** this lab builds the SNS delivery-debugging skill used in **Challenges 2 and 7** of the assessment (proving messages actually reach subscribers, and knowing why they silently don't).
-
 ## Architecture
 
 ```

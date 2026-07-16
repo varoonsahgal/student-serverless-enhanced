@@ -13,8 +13,6 @@
 
 **Acme Retail** funnels failed-order events into an SQS queue that a Lambda drains. One malformed order got in and now it **retries endlessly** — the same message reappears every few seconds, spamming the logs and blocking clean processing. There's nowhere for bad messages to go.
 
-**Microcredential mapping:** this lab mirrors the error-queue requirement of **Challenge 5** of the assessment (failed-order information must be captured for later investigation or reprocessing, not retried forever).
-
 ## Architecture
 
 ```
